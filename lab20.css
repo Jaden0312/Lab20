@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #262626;
+}
+
 .container {
     height: 30vh;
     display: flex;
@@ -20,15 +24,22 @@ h3 {
 }
 
 .rating-box {
+    background-color: #fff;
     padding: 25px 50px;
     border-radius: 25px;
+    margin-top: 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    
 }
 
 .rating-box .stars {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 250px;
+    height: 35px;
+    background: #DAA520;
+    margin-left: 13px;
 }
 
 .stars i {
@@ -58,6 +69,7 @@ p {
 }
 
 #search-result .card {
+    color: #fff;
     width: 100%;
     height: 800px;
     margin-bottom: 40px;
@@ -68,4 +80,17 @@ p {
     height: 700px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+#search-result h3 {
+    height: 66px;
+}
+
+#empty-result {
+    color: #fff;
+    width: 80%;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    /* overflow: hidden; */
 }
